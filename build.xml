@@ -16,7 +16,7 @@
 
     <target name="runjunit" depends="compile">
         <junit haltonfailure="true" printsummary="true" showoutput="yes">
-            <test name="com.nasa.ParserTest"/>
+            <test name="com.nasa.RoboticRoverTest"/>
             <classpath>
                 <pathelement location="out"/>
                 <path refid="classpath"/>
